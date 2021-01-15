@@ -1,25 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
 import NavBar from './Components/NavBar/NavBar'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Forms from './Components/Forms/forms'
+import Main from './Components/Main/main'
+import Footer from './Components/Footer/footer'
+import bg from "./assets/bg.jpg";
 function App() {
   return (
-    <div className="App">
-      <NavBar/>
-      <header >
-      {/*  <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a> */}
-      </header>
+    <div  style={{  background: `url(${bg})` , backgroundPosition: 'center',
+  backgroundSize: 'cover',
+  backgroundRepeat: 'no-repeat'}}>
+      <NavBar />
+      <Main/>
+      <Forms></Forms>
+      <Footer/>
     </div>
   );
 }
