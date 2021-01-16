@@ -9,9 +9,6 @@ function App() {
     <div  className=" Container homepage-bgimage">
       
       <NavBar />
-      
-
-      
       <Forms></Forms>
       <Footer/>
     </div>

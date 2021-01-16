@@ -9,7 +9,7 @@ return (
       <MDBRow className="row">
       <MDBCol md="11">
             <form>
-            <p className="h5 text-center mb-4">Sign up</p>
+            <p color="black" className="h5 text-center mb-4">Sign up</p>
             <div className="grey-text">
             <MDBInput label="Your name" icon="user" group type="text" validate error="wrong"
                   success="right" />
@@ -20,7 +20,7 @@ return (
             <MDBInput label="Your password" icon="lock" group type="password" validate />
             </div>
             <div className="text-center">
-            <MDBBtn color="primary">Register</MDBBtn>
+            <MDBBtn color="default"  rounded="true">Register</MDBBtn>
             </div>
             </form>
       </MDBCol>
