@@ -1,4 +1,6 @@
 import React from 'react'
+import './NavBar.css';
+
 import{Nav,Navbar,FormControl,Form,Button} from 'react-bootstrap'
 
 const NavBar =() => {

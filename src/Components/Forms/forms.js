@@ -1,11 +1,13 @@
 import React from "react";
+import './Forms.css';
+
 import { MDBContainer, MDBRow, MDBCol, MDBBtn, MDBInput } from 'mdbreact';
 
 const Forms = () => {
 return (
-      <MDBContainer>
-      <MDBRow>
-      <MDBCol md="6">
+      <MDBContainer className="forms">
+      <MDBRow className="row">
+      <MDBCol md="11">
             <form>
             <p className="h5 text-center mb-4">Sign up</p>
             <div className="grey-text">

@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   margin: 0;
+  padding: 0;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -24,7 +25,4 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-.NavBar {
-  margin: 0;
 }
